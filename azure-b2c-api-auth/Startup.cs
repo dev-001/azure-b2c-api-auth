@@ -37,7 +37,7 @@ namespace test_b2c_authorize
         {
             services.AddSwaggerGen(config =>
             {
-                config.SwaggerDoc("v2", new OpenApiInfo { Title = "CCPC API", Version = "v2" });
+                config.SwaggerDoc("v2", new OpenApiInfo { Title = "API", Version = "v2" });
 
                 var securitySchema = new OpenApiSecurityScheme
                 {
